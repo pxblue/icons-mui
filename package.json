@@ -17,7 +17,8 @@
     "build": "npx icon-font-generator design/**/**/*.svg -o iconfont",
     "babelfy": "babel icons --presets=@babel/preset-react,@babel/preset-env --out-dir icons",
     "mui:react": "rm -r icons && cd mui-icon-builder && yarn && babel-node --config-file ./babel.config.js builder.js --output-dir ../icons --svg-dir ../node_modules/@pxblue/symbols && cd .. && yarn run babelfy",
-    "svgr:react": "rm -r icons && npx @svgr/cli -d icons node_modules/@pxblue/symbols --template mui-template.js --expand-props none --no-dimensions && yarn run babelfy"
+    "svgr:react": "rm -r icons && npx @svgr/cli -d icons node_modules/@pxblue/symbols --template mui-template.js --expand-props none --no-dimensions && yarn run babelfy",
+    "publish:full": "yarn install && yarn run mui:react && npm version patch && npm publish"
   },
   "bugs": {
     "url": "https://github.com/pxblue/icons-mui/issues"
