@@ -28,3 +28,16 @@ import {FirstIcon, SecondIcon, ThirdIcon} from '@pxblue/icons-mui';
 ```
 
 Icon names are in TitleCase - for a list of available icons, refer to [@pxblue/icons](https://github.com/pxblue/icons/blob/master/README.md).
+
+## Building Icon Set (for contributors)
+To build the icon set, e.g. when new icons are added:
+
+```
+yarn install
+yarn run svgr:react
+```
+or
+```
+yarn install
+yarn run mui:react
+```
