@@ -7,7 +7,7 @@ This code is licensed under the BSD-3 license found in the LICENSE file in the r
 **/
 
 import React from 'react';
-import createSvgIcon from './utils/createSvgIcon';
+import createSvgIcon from '@material-ui/icons/utils/createSvgIcon';
 
 export default createSvgIcon(
   <React.Fragment>{{{paths}}}</React.Fragment>

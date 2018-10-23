@@ -10,7 +10,8 @@
   "author": "px-blue <pxblue@eaton.com>",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "@pxblue/symbols":"^1.0.0"
+    "@material-ui/icons": "^3.0.1",
+    "@pxblue/symbols": "^1.0.0"
   },
   "scripts": {
     "build": "npx icon-font-generator design/**/**/*.svg -o iconfont",
