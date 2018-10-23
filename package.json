@@ -1,0 +1,39 @@
+{
+  "name": "@pxblue/icons-mui",
+  "version": "1.0.0",
+  "description": "PX Blue icons for Material UI",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxblue/icons-mui.git"
+  },
+  "author": "px-blue <pxblue@eaton.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@pxblue/symbols":"^1.0.0"
+  },
+  "scripts": {
+    "build": "npx icon-font-generator design/**/**/*.svg -o iconfont",
+    "babelfy": "babel icons --presets=@babel/preset-react,@babel/preset-env --out-dir icons",
+    "mui:react": "rm -r icons && cd mui-icon-builder && yarn && babel-node --config-file ./babel.config.js builder.js --output-dir ../icons --svg-dir ../node_modules/@pxblue/symbols && cd .. && yarn run babelfy",
+    "svgr:react": "rm -r icons && npx @svgr/cli -d icons node_modules/@pxblue/symbols --template mui-template.js --expand-props none --no-dimensions && yarn run babelfy"
+  },
+  "bugs": {
+    "url": "https://github.com/pxblue/icons-mui/issues"
+  },
+  "homepage": "https://github.com/pxblue/icons-mui#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@pxblue/symbols": "^1.0.0"
+  },
+  "keywords": [
+    "icons",
+    "material",
+    "material-ui",
+    "pxblue"
+  ]
+}
