@@ -32,7 +32,7 @@ const svgo = new SVGO({
     { removeHiddenElems: true },
     { removeEmptyText: true },
     { removeEmptyContainers: true },
-    { removeViewBox: true },
+    // { removeViewBox: false },
     { cleanupEnableBackground: true },
     { minifyStyles: true },
     { convertStyleToAttrs: true },
@@ -118,6 +118,13 @@ async function worker({ svgPath, options, renameFilter, template }) {
     .replace(/<rect fill="none" width="24" height="24"\/>/g, '')
     .replace(/<rect id="SVGID_1_" width="24" height="24"\/>/g, '');
 
+  //manually calculate inherent size from viewbox attribute
+  let viewbox = input.match(/viewBox="[0-9]+ [0-9]+ [0-9]+ [0-9]+"/gi);
+  let size = '24';
+  if(viewbox){
+    size = viewbox[0].replace('viewBox="','').replace('"',"").split(' ',4)[3];
+  }
+
   const result = await svgo.optimize(input);
 
   // Extract the paths from the svg string
@@ -129,20 +136,23 @@ async function worker({ svgPath, options, renameFilter, template }) {
     .replace(/fill-opacity=/g, 'fillOpacity=')
     .replace(/xlink:href=/g, 'xlinkHref=')
     .replace(/clip-rule=/g, 'clipRule=')
+    .replace(/class=/g, 'className=')
+    .replace(/stop-color=/g, 'stopColor=')
     .replace(/fill-rule=/g, 'fillRule=')
     .replace(/ clip-path=".+?"/g, '') // Fix visibility issue and save some bytes.
     .replace(/<clipPath.+?<\/clipPath>/g, ''); // Remove unused definitions
 
-  const sizeMatch = svgPath.match(/^.*_([0-9]+)px.svg$/);
-  const size = sizeMatch ? Number(sizeMatch[1]) : null;
+  // const sizeMatch = svgPath.match(/^.*_([0-9]+)px.svg$/);
+  // const size = sizeMatch ? Number(sizeMatch[1]) : null;
 
-  if (size !== 24) {
-    const scale = Math.round((24 / size) * 100) / 100; // Keep a maximum of 2 decimals
-    paths = paths.replace('clipPath="url(#b)" ', '');
-    paths = paths.replace(/<path /g, `<path transform="scale(${scale}, ${scale})" `);
-  }
+  // if (size !== 24) {
+  //   const scale = Math.round((24 / size) * 100) / 100; // Keep a maximum of 2 decimals
+  //   paths = paths.replace('clipPath="url(#b)" ', '');
+  //   paths = paths.replace(/<path /g, `<path transform="scale(${scale}, ${scale})" `);
+  // }
 
   const fileString = Mustache.render(template, {
+    size,
     paths,
     componentName: getComponentName(destPath),
   });
