@@ -138,6 +138,17 @@ async function worker({ svgPath, options, renameFilter, template }) {
     .replace(/clip-rule=/g, 'clipRule=')
     .replace(/class=/g, 'className=')
     .replace(/stop-color=/g, 'stopColor=')
+
+    .replace(/font-family=/g, 'fontFamily=')
+    .replace(/font-size=/g, 'fontSize=')
+    .replace(/font-weight=/g, 'fontWeight=')
+    .replace(/text-anchor=/g, 'textAnchor=')
+    .replace(/stroke-miterLimit=/g, 'strokeMiterLimit=')
+    .replace(/stop-opacity=/g, 'stopOpacity=')
+    .replace(/stroke-width=/g, 'strokeWidth=')
+    .replace(/stroke-linecap=/g, 'strokeLinecap=')
+    .replace(/stroke-linejoin=/g, 'strokeLinejoin=')
+
     .replace(/fill-rule=/g, 'fillRule=')
     .replace(/ clip-path=".+?"/g, '') // Fix visibility issue and save some bytes.
     .replace(/<clipPath.+?<\/clipPath>/g, ''); // Remove unused definitions
