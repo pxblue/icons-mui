@@ -125,6 +125,7 @@ async function worker({ svgPath, options, renameFilter, template }) {
   // Remove hardcoded color fill before optimizing so that empty groups are removed
   const input = data
     .replace(/ fill="#010101"/g, '')
+    .replace(/ fill="#231f20"/g, '')
     .replace(/<rect fill="none" width="24" height="24"\/>/g, '')
     .replace(/<rect id="SVGID_1_" width="24" height="24"\/>/g, '');
 
