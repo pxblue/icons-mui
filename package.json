@@ -17,10 +17,11 @@
   "scripts": {
     "build": "npx icon-font-generator design/**/**/*.svg -o iconfont",
     "babelfy": "babel icons --presets=@babel/preset-react,@babel/preset-env --out-dir icons",
-    "refresh": "rm -r node_modules && rm yarn.lock",
-    "mui:react": "yarn run refresh && rm -r icons && cd mui-icon-builder && yarn && babel-node --config-file ./babel.config.js builder.js --output-dir ../icons --svg-dir ../node_modules/@pxblue/icons-svg && cd .. && yarn run babelfy",
-    "svgr:react": "yarn run refresh && rm -r icons && npx @svgr/cli -d icons node_modules/@pxblue/icons-svg --template mui-template.js --expand-props none --no-dimensions && yarn run babelfy",
-    "publish:full": "yarn run refresh && yarn run mui:react && npm version patch && npm publish"
+    "refresh": "rm -r node_modules && rm yarn.lock && yarn && cd mui-icon-builder && rm -r node_modules && rm yarn.lock && yarn && cd ..",
+    "clear": "rm -r icons",
+    "mui:react": "cd mui-icon-builder && babel-node --config-file ./babel.config.js builder.js --output-dir ../icons --svg-dir ../node_modules/@pxblue/icons-svg && cd .. && yarn run babelfy",
+    "svgr:react": "npx @svgr/cli -d icons node_modules/@pxblue/icons-svg --template mui-template.js --expand-props none --no-dimensions && yarn run babelfy",
+    "publish:full": "yarn clear && yarn refresh && yarn run mui:react && npm version patch && npm publish"
   },
   "bugs": {
     "url": "https://github.com/pxblue/icons-mui/issues"
