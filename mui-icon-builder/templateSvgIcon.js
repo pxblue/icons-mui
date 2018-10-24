@@ -10,10 +10,10 @@ import React from 'react';
 import createSvgIcon from '@material-ui/icons/utils/createSvgIcon';
 import SvgIcon from '@material-ui/core/SvgIcon';
 
-const create = () => {
+const create = (props) => {
   if(parseInt({{size}}, 10) !== 24){
     return (
-      <SvgIcon viewBox={'0 0 ' + {{size}} + ' ' + {{size}}}>
+      <SvgIcon viewBox={'0 0 ' + {{size}} + ' ' + {{size}}} {...props}>
         <React.Fragment>{{{paths}}}</React.Fragment>
       </SvgIcon>
     )
