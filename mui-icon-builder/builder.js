@@ -43,7 +43,17 @@ const svgo = new SVGO({
     { removeNonInheritableGroupAttrs: true },
     { removeUselessStrokeAndFill: true },
     { removeUnusedNS: true },
-    { cleanupIDs: true },
+    // { cleanupIDs: true },
+    {
+      cleanupIDs: {
+        prefix: {
+          toString() {
+            this.counter = this.counter || 0;
+            return `id-${this.counter++}`;
+          }
+        }
+      }
+    },
     { cleanupNumericValues: true },
     { cleanupListOfValues: true },
     { moveElemsAttrsToGroup: true },
@@ -143,15 +153,16 @@ async function worker({ svgPath, options, renameFilter, template }) {
     .replace(/font-size=/g, 'fontSize=')
     .replace(/font-weight=/g, 'fontWeight=')
     .replace(/text-anchor=/g, 'textAnchor=')
-    .replace(/stroke-miterLimit=/g, 'strokeMiterLimit=')
+    .replace(/stroke-miterlimit=/g, 'strokeMiterlimit=')
     .replace(/stop-opacity=/g, 'stopOpacity=')
     .replace(/stroke-width=/g, 'strokeWidth=')
     .replace(/stroke-linecap=/g, 'strokeLinecap=')
     .replace(/stroke-linejoin=/g, 'strokeLinejoin=')
+    .replace(/clip-path=/g, 'clipPath=')
 
-    .replace(/fill-rule=/g, 'fillRule=')
-    .replace(/ clip-path=".+?"/g, '') // Fix visibility issue and save some bytes.
-    .replace(/<clipPath.+?<\/clipPath>/g, ''); // Remove unused definitions
+    .replace(/fill-rule=/g, 'fillRule=');
+    //.replace(/ clip-path=".+?"/g, '') // Fix visibility issue and save some bytes.
+    //.replace(/<clipPath.+?<\/clipPath>/g, ''); // Remove unused definitions
 
   // const sizeMatch = svgPath.match(/^.*_([0-9]+)px.svg$/);
   // const size = sizeMatch ? Number(sizeMatch[1]) : null;
