@@ -13,6 +13,7 @@ yarn.lock
 /circle
 /.circleci
 /mui-icon-builder
+mui-template.js
 
 # misc
 .DS_Store
