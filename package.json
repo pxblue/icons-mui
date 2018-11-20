@@ -14,12 +14,13 @@
     "@material-ui/icons": "^3.0.1"
   },
   "scripts": {
+    "index": "cp node_modules/@pxblue/icons-svg/index.json ./index.json",
     "babelfy": "babel icons --presets=@babel/preset-react,@babel/preset-env --out-dir icons",
     "refresh": "yarn upgrade && cd mui-icon-builder && yarn upgrade && cd ..",
     "clear": "rm -rf icons",
     "remove:sprite": "rm -f node_modules/@pxblue/icons-svg/icons.svg",
-    "mui": "yarn remove:sprite && cd mui-icon-builder && babel-node --config-file ./babel.config.js builder.js --output-dir ../icons --svg-dir ../node_modules/@pxblue/icons-svg && cd .. && yarn babelfy",
-    "svgr": "yarn remove:sprite && npx @svgr/cli -d icons node_modules/@pxblue/icons-svg --template mui-template.js --expand-props none --no-dimensions && yarn babelfy",
+    "mui": "yarn remove:sprite && cd mui-icon-builder && babel-node --config-file ./babel.config.js builder.js --output-dir ../icons --svg-dir ../node_modules/@pxblue/icons-svg && cd .. && yarn babelfy && yarn index",
+    "svgr": "yarn remove:sprite && npx @svgr/cli -d icons node_modules/@pxblue/icons-svg --template mui-template.js --expand-props none --no-dimensions && yarn babelfy && yarn index",
     "publish:full": "yarn clear && yarn refresh && yarn mui && npm version patch && npm publish"
   },
   "bugs": {
