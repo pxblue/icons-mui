@@ -14,7 +14,7 @@ yarn add @pxblue/icons-mui
 ## Usage
 
 ### Angular
-This package is intended for use only in React applications. For a way to link svg icons for use in Angular applications, see [@pxblue/svg-mat-icon](https://github.com/pxblue/svg-mat-icon).
+This package is intended for use only in React applications. For a way to link svg icons for use in Angular applications, see [@pxblue/icons](https://github.com/pxblue/icons).
 
 
 ### React
