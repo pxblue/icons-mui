@@ -29,7 +29,11 @@ If you are importing multiple icons, you can save some space by using named impo
 import {FirstIcon, SecondIcon, ThirdIcon} from '@pxblue/icons-mui';
 ```
 
-Icon names are in TitleCase - for a list of available icons, refer to [@pxblue/icons](https://github.com/pxblue/icons/blob/master/README.md).
+##Available Icons
+Please refer to [Available Icons](https://github.com/pxblue/icons/blob/master/available_icons.md) for a list of currently available icons.
+
+>**NOTE**: When using this package, icon names are in TitleCase (e.g., bypass_battery --> BypassBattery).
+
 
 ## Building Icon Set (for contributors)
 To build the icon set, e.g. when new icons are added:
