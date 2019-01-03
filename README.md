@@ -29,7 +29,13 @@ If you are importing multiple icons, you can save some space by using named impo
 import {FirstIcon, SecondIcon, ThirdIcon} from '@pxblue/icons-mui';
 ```
 
-##Available Icons
+### Applying Different Colors
+To change the color of the icon you are using, simply set the CSS color property. This property is inheritable, so if the property is not set on your icon, it will be inherited from the parent container.
+```
+<FirstIcon style={{color: 'red'}}></FirstIcon>
+```
+
+## Available Icons
 Please refer to [Available Icons](https://github.com/pxblue/icons/blob/master/available_icons.md) for a list of currently available icons.
 
 >**NOTE**: When using this package, icon names are in TitleCase (e.g., bypass_battery --> BypassBattery).
