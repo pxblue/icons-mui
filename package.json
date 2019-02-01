@@ -14,13 +14,13 @@
     "@material-ui/icons": "^3.0.1"
   },
   "scripts": {
+    "test": "./buildTest.sh",
     "index": "cp node_modules/@pxblue/icons-svg/index.json ./index.json",
     "babelfy": "babel icons --presets=@babel/preset-react,@babel/preset-env --out-dir icons",
-    "refresh": "yarn upgrade && cd mui-icon-builder && yarn upgrade && cd ..",
+    "refresh": "yarn upgrade @pxblue/icons-svg",
     "clear": "rm -rf icons",
-    "remove:sprite": "rm -f node_modules/@pxblue/icons-svg/icons.svg",
+    "remove:sprite": "rm -rf node_modules/@pxblue/icons-svg/icons.svg",
     "mui": "yarn remove:sprite && cd mui-icon-builder && babel-node --config-file ./babel.config.js builder.js --output-dir ../icons --svg-dir ../node_modules/@pxblue/icons-svg && cd .. && yarn babelfy && yarn index",
-    "svgr": "yarn remove:sprite && npx @svgr/cli -d icons node_modules/@pxblue/icons-svg --template mui-template.js --expand-props none --no-dimensions && yarn babelfy && yarn index",
     "publish:full": "yarn clear && yarn refresh && yarn mui && npm version patch && npm publish"
   },
   "bugs": {
@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/pxblue/icons-mui#readme",
   "devDependencies": {
+    "@svgr/cli":"^4.1.0",
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
     "@babel/node": "7.0.0",
