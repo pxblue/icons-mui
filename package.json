@@ -20,7 +20,7 @@
     "refresh": "yarn upgrade @pxblue/icons-svg",
     "clear": "rm -rf icons",
     "remove:sprite": "rm -rf node_modules/@pxblue/icons-svg/icons.svg",
-    "mui": "yarn remove:sprite && cd mui-icon-builder && babel-node --config-file ./babel.config.js builder.js --output-dir ../icons --svg-dir ../node_modules/@pxblue/icons-svg && cd .. && yarn babelfy && yarn index",
+    "mui": "cd mui-icon-builder && yarn && cd .. && yarn && yarn remove:sprite && cd mui-icon-builder && babel-node --config-file ./babel.config.js builder.js --output-dir ../icons --svg-dir ../node_modules/@pxblue/icons-svg && cd .. && yarn babelfy && yarn index",
     "publish:full": "yarn clear && yarn refresh && yarn mui && npm version patch && npm publish"
   },
   "bugs": {
