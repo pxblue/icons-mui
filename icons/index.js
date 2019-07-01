@@ -135,12 +135,6 @@ Object.defineProperty(exports, "Contactor", {
     return _Contactor.default;
   }
 });
-Object.defineProperty(exports, "Controlxpert", {
-  enumerable: true,
-  get: function get() {
-    return _Controlxpert.default;
-  }
-});
 Object.defineProperty(exports, "Corn", {
   enumerable: true,
   get: function get() {
@@ -833,8 +827,6 @@ var _CombineHarvester = _interopRequireDefault(require("./CombineHarvester"));
 var _Computer = _interopRequireDefault(require("./Computer"));
 
 var _Contactor = _interopRequireDefault(require("./Contactor"));
-
-var _Controlxpert = _interopRequireDefault(require("./Controlxpert"));
 
 var _Corn = _interopRequireDefault(require("./Corn"));
 
