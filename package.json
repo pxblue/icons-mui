@@ -1,6 +1,6 @@
 {
   "name": "@pxblue/icons-mui",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "PX Blue icons for Material UI",
   "main": "./icons/index.js",
   "repository": {
