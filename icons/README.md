@@ -40,27 +40,3 @@ See the [Iconography](https://pxblue.github.io/style/iconography) on pxblue.gith
 
 
 >**NOTE**: When using this package, icon names are in TitleCase (e.g., bypass_battery --> BypassBattery).
-
-
-## Building Icon Set (for contributors)
-To build the icons-mui package (e.g., after new icons are added to PX Blue):
-```
-git clone https://github.com/pxblue/icons-mui
-cd icons-mui
-yarn build:full
-```
-
-This will populate the /icons directory with all of the icon components as well as copy over necessary files for publishing (Readme, package.json, etc.).
-
-> When building the icons-mui package, it imports the latest icons from the @pxblue/icons-svg package, so when new icons are added, @pxblue/icons-svg must be published to NPM before this package can be updated.
-
-### Publishing
-To publish the package:
-```
-yarn build:full
-cd icons
-npm version < patch | minor | major >
-npm publish
-```
-
-> **NOTE:** This package must be published from the /icons directory, not the root directory.

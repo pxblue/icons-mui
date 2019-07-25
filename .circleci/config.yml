@@ -10,11 +10,9 @@ jobs:
           command: |
             yarn
             cd mui-icon-builder && yarn && cd ..
-            yarn clear
-            yarn refresh
       - run:
           name: Build MUI
-          command: yarn mui
+          command: yarn build:full
       - run:
           name: Verify MUI Artifacts
           command: yarn test
