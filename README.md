@@ -20,7 +20,7 @@ This package is intended for use only in React applications. For a way to link s
 ### React
 Once you have installed the npm module, you can import the icon components into your application as follows:
 ```
-import myIcon from '@pxblue/icons-mui/MyIcon;
+import myIcon from '@pxblue/icons-mui/MyIcon';
 ...
 <myIcon></myIcon>
 ```
