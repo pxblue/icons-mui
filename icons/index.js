@@ -6,781 +6,781 @@ Object.defineProperty(exports, "__esModule", {
 Object.defineProperty(exports, "AirFilter", {
   enumerable: true,
   get: function get() {
-    return _AirFilter.default;
+    return _AirFilter["default"];
   }
 });
 Object.defineProperty(exports, "Apple", {
   enumerable: true,
   get: function get() {
-    return _Apple.default;
+    return _Apple["default"];
   }
 });
 Object.defineProperty(exports, "Asparagus", {
   enumerable: true,
   get: function get() {
-    return _Asparagus.default;
+    return _Asparagus["default"];
   }
 });
 Object.defineProperty(exports, "Barley", {
   enumerable: true,
   get: function get() {
-    return _Barley.default;
+    return _Barley["default"];
   }
 });
 Object.defineProperty(exports, "BarleyAlt", {
   enumerable: true,
   get: function get() {
-    return _BarleyAlt.default;
+    return _BarleyAlt["default"];
   }
 });
 Object.defineProperty(exports, "Barrel", {
   enumerable: true,
   get: function get() {
-    return _Barrel.default;
+    return _Barrel["default"];
   }
 });
 Object.defineProperty(exports, "Baseball", {
   enumerable: true,
   get: function get() {
-    return _Baseball.default;
+    return _Baseball["default"];
   }
 });
 Object.defineProperty(exports, "BasketballHoop", {
   enumerable: true,
   get: function get() {
-    return _BasketballHoop.default;
+    return _BasketballHoop["default"];
   }
 });
 Object.defineProperty(exports, "Battery", {
   enumerable: true,
   get: function get() {
-    return _Battery.default;
+    return _Battery["default"];
   }
 });
 Object.defineProperty(exports, "Bearing", {
   enumerable: true,
   get: function get() {
-    return _Bearing.default;
+    return _Bearing["default"];
   }
 });
 Object.defineProperty(exports, "BoxingGlove", {
   enumerable: true,
   get: function get() {
-    return _BoxingGlove.default;
+    return _BoxingGlove["default"];
   }
 });
 Object.defineProperty(exports, "Breaker", {
   enumerable: true,
   get: function get() {
-    return _Breaker.default;
+    return _Breaker["default"];
   }
 });
 Object.defineProperty(exports, "Broccoli", {
   enumerable: true,
   get: function get() {
-    return _Broccoli.default;
+    return _Broccoli["default"];
   }
 });
 Object.defineProperty(exports, "BypassBattery", {
   enumerable: true,
   get: function get() {
-    return _BypassBattery.default;
+    return _BypassBattery["default"];
   }
 });
 Object.defineProperty(exports, "Camera", {
   enumerable: true,
   get: function get() {
-    return _Camera.default;
+    return _Camera["default"];
   }
 });
 Object.defineProperty(exports, "CapacitorLarge", {
   enumerable: true,
   get: function get() {
-    return _CapacitorLarge.default;
+    return _CapacitorLarge["default"];
   }
 });
 Object.defineProperty(exports, "Car", {
   enumerable: true,
   get: function get() {
-    return _Car.default;
+    return _Car["default"];
   }
 });
 Object.defineProperty(exports, "Carrot", {
   enumerable: true,
   get: function get() {
-    return _Carrot.default;
+    return _Carrot["default"];
   }
 });
 Object.defineProperty(exports, "ChiliPepper", {
   enumerable: true,
   get: function get() {
-    return _ChiliPepper.default;
+    return _ChiliPepper["default"];
   }
 });
 Object.defineProperty(exports, "CombineHarvester", {
   enumerable: true,
   get: function get() {
-    return _CombineHarvester.default;
+    return _CombineHarvester["default"];
   }
 });
 Object.defineProperty(exports, "Computer", {
   enumerable: true,
   get: function get() {
-    return _Computer.default;
+    return _Computer["default"];
   }
 });
 Object.defineProperty(exports, "Contactor", {
   enumerable: true,
   get: function get() {
-    return _Contactor.default;
+    return _Contactor["default"];
   }
 });
 Object.defineProperty(exports, "Corn", {
   enumerable: true,
   get: function get() {
-    return _Corn.default;
+    return _Corn["default"];
   }
 });
 Object.defineProperty(exports, "Current", {
   enumerable: true,
   get: function get() {
-    return _Current.default;
+    return _Current["default"];
   }
 });
 Object.defineProperty(exports, "CurrentCircled", {
   enumerable: true,
   get: function get() {
-    return _CurrentCircled.default;
+    return _CurrentCircled["default"];
   }
 });
 Object.defineProperty(exports, "CurrentCircledOutline", {
   enumerable: true,
   get: function get() {
-    return _CurrentCircledOutline.default;
+    return _CurrentCircledOutline["default"];
   }
 });
 Object.defineProperty(exports, "Cybersecurity", {
   enumerable: true,
   get: function get() {
-    return _Cybersecurity.default;
+    return _Cybersecurity["default"];
   }
 });
 Object.defineProperty(exports, "CybersecurityTwoTone", {
   enumerable: true,
   get: function get() {
-    return _CybersecurityTwoTone.default;
+    return _CybersecurityTwoTone["default"];
   }
 });
 Object.defineProperty(exports, "Device", {
   enumerable: true,
   get: function get() {
-    return _Device.default;
+    return _Device["default"];
   }
 });
 Object.defineProperty(exports, "Environment", {
   enumerable: true,
   get: function get() {
-    return _Environment.default;
+    return _Environment["default"];
   }
 });
 Object.defineProperty(exports, "EphesusFixture", {
   enumerable: true,
   get: function get() {
-    return _EphesusFixture.default;
+    return _EphesusFixture["default"];
   }
 });
 Object.defineProperty(exports, "EphesusGateway", {
   enumerable: true,
   get: function get() {
-    return _EphesusGateway.default;
+    return _EphesusGateway["default"];
   }
 });
 Object.defineProperty(exports, "Fan", {
   enumerable: true,
   get: function get() {
-    return _Fan.default;
+    return _Fan["default"];
   }
 });
 Object.defineProperty(exports, "Flow", {
   enumerable: true,
   get: function get() {
-    return _Flow.default;
+    return _Flow["default"];
   }
 });
 Object.defineProperty(exports, "Flower", {
   enumerable: true,
   get: function get() {
-    return _Flower.default;
+    return _Flower["default"];
   }
 });
 Object.defineProperty(exports, "FlowerTulip", {
   enumerable: true,
   get: function get() {
-    return _FlowerTulip.default;
+    return _FlowerTulip["default"];
   }
 });
 Object.defineProperty(exports, "FootballHelmet", {
   enumerable: true,
   get: function get() {
-    return _FootballHelmet.default;
+    return _FootballHelmet["default"];
   }
 });
 Object.defineProperty(exports, "Forklift", {
   enumerable: true,
   get: function get() {
-    return _Forklift.default;
+    return _Forklift["default"];
   }
 });
 Object.defineProperty(exports, "Fuel", {
   enumerable: true,
   get: function get() {
-    return _Fuel.default;
+    return _Fuel["default"];
   }
 });
 Object.defineProperty(exports, "Garlic", {
   enumerable: true,
   get: function get() {
-    return _Garlic.default;
+    return _Garlic["default"];
   }
 });
 Object.defineProperty(exports, "GasCylinder", {
   enumerable: true,
   get: function get() {
-    return _GasCylinder.default;
+    return _GasCylinder["default"];
   }
 });
 Object.defineProperty(exports, "Generator", {
   enumerable: true,
   get: function get() {
-    return _Generator.default;
+    return _Generator["default"];
   }
 });
 Object.defineProperty(exports, "GeneratorOff", {
   enumerable: true,
   get: function get() {
-    return _GeneratorOff.default;
+    return _GeneratorOff["default"];
   }
 });
 Object.defineProperty(exports, "Glasses", {
   enumerable: true,
   get: function get() {
-    return _Glasses.default;
+    return _Glasses["default"];
   }
 });
 Object.defineProperty(exports, "GradeA", {
   enumerable: true,
   get: function get() {
-    return _GradeA.default;
+    return _GradeA["default"];
   }
 });
 Object.defineProperty(exports, "GradeB", {
   enumerable: true,
   get: function get() {
-    return _GradeB.default;
+    return _GradeB["default"];
   }
 });
 Object.defineProperty(exports, "GradeC", {
   enumerable: true,
   get: function get() {
-    return _GradeC.default;
+    return _GradeC["default"];
   }
 });
 Object.defineProperty(exports, "GradeD", {
   enumerable: true,
   get: function get() {
-    return _GradeD.default;
+    return _GradeD["default"];
   }
 });
 Object.defineProperty(exports, "GradeF", {
   enumerable: true,
   get: function get() {
-    return _GradeF.default;
+    return _GradeF["default"];
   }
 });
 Object.defineProperty(exports, "Grass", {
   enumerable: true,
   get: function get() {
-    return _Grass.default;
+    return _Grass["default"];
   }
 });
 Object.defineProperty(exports, "Health", {
   enumerable: true,
   get: function get() {
-    return _Health.default;
+    return _Health["default"];
   }
 });
 Object.defineProperty(exports, "HockeyPuck", {
   enumerable: true,
   get: function get() {
-    return _HockeyPuck.default;
+    return _HockeyPuck["default"];
   }
 });
 Object.defineProperty(exports, "HockeySticks", {
   enumerable: true,
   get: function get() {
-    return _HockeySticks.default;
+    return _HockeySticks["default"];
   }
 });
 Object.defineProperty(exports, "Hops", {
   enumerable: true,
   get: function get() {
-    return _Hops.default;
+    return _Hops["default"];
   }
 });
 Object.defineProperty(exports, "Incident", {
   enumerable: true,
   get: function get() {
-    return _Incident.default;
+    return _Incident["default"];
   }
 });
 Object.defineProperty(exports, "IncidentActive", {
   enumerable: true,
   get: function get() {
-    return _IncidentActive.default;
+    return _IncidentActive["default"];
   }
 });
 Object.defineProperty(exports, "IncidentResolved", {
   enumerable: true,
   get: function get() {
-    return _IncidentResolved.default;
+    return _IncidentResolved["default"];
   }
 });
 Object.defineProperty(exports, "Leaf", {
   enumerable: true,
   get: function get() {
-    return _Leaf.default;
+    return _Leaf["default"];
   }
 });
 Object.defineProperty(exports, "Maintenance", {
   enumerable: true,
   get: function get() {
-    return _Maintenance.default;
+    return _Maintenance["default"];
   }
 });
 Object.defineProperty(exports, "Moisture", {
   enumerable: true,
   get: function get() {
-    return _Moisture.default;
+    return _Moisture["default"];
   }
 });
 Object.defineProperty(exports, "NetworkSwitch", {
   enumerable: true,
   get: function get() {
-    return _NetworkSwitch.default;
+    return _NetworkSwitch["default"];
   }
 });
 Object.defineProperty(exports, "Overlap", {
   enumerable: true,
   get: function get() {
-    return _Overlap.default;
+    return _Overlap["default"];
   }
 });
 Object.defineProperty(exports, "Pdu", {
   enumerable: true,
   get: function get() {
-    return _Pdu.default;
+    return _Pdu["default"];
   }
 });
 Object.defineProperty(exports, "Pepper", {
   enumerable: true,
   get: function get() {
-    return _Pepper.default;
+    return _Pepper["default"];
   }
 });
 Object.defineProperty(exports, "PickupTruck", {
   enumerable: true,
   get: function get() {
-    return _PickupTruck.default;
+    return _PickupTruck["default"];
   }
 });
 Object.defineProperty(exports, "Pipe", {
   enumerable: true,
   get: function get() {
-    return _Pipe.default;
+    return _Pipe["default"];
   }
 });
 Object.defineProperty(exports, "PipeDisconnected", {
   enumerable: true,
   get: function get() {
-    return _PipeDisconnected.default;
+    return _PipeDisconnected["default"];
   }
 });
 Object.defineProperty(exports, "PipeLeak", {
   enumerable: true,
   get: function get() {
-    return _PipeLeak.default;
+    return _PipeLeak["default"];
   }
 });
 Object.defineProperty(exports, "Potato", {
   enumerable: true,
   get: function get() {
-    return _Potato.default;
+    return _Potato["default"];
   }
 });
 Object.defineProperty(exports, "PowerCircled", {
   enumerable: true,
   get: function get() {
-    return _PowerCircled.default;
+    return _PowerCircled["default"];
   }
 });
 Object.defineProperty(exports, "PowerCircledOutline", {
   enumerable: true,
   get: function get() {
-    return _PowerCircledOutline.default;
+    return _PowerCircledOutline["default"];
   }
 });
 Object.defineProperty(exports, "Priority", {
   enumerable: true,
   get: function get() {
-    return _Priority.default;
+    return _Priority["default"];
   }
 });
 Object.defineProperty(exports, "Pump", {
   enumerable: true,
   get: function get() {
-    return _Pump.default;
+    return _Pump["default"];
   }
 });
 Object.defineProperty(exports, "PushNotification", {
   enumerable: true,
   get: function get() {
-    return _PushNotification.default;
+    return _PushNotification["default"];
   }
 });
 Object.defineProperty(exports, "PushNotificationSolid", {
   enumerable: true,
   get: function get() {
-    return _PushNotificationSolid.default;
+    return _PushNotificationSolid["default"];
   }
 });
 Object.defineProperty(exports, "Pxblue", {
   enumerable: true,
   get: function get() {
-    return _Pxblue.default;
+    return _Pxblue["default"];
   }
 });
 Object.defineProperty(exports, "PxblueSmall", {
   enumerable: true,
   get: function get() {
-    return _PxblueSmall.default;
+    return _PxblueSmall["default"];
   }
 });
 Object.defineProperty(exports, "PxblueSmallAlt", {
   enumerable: true,
   get: function get() {
-    return _PxblueSmallAlt.default;
+    return _PxblueSmallAlt["default"];
   }
 });
 Object.defineProperty(exports, "Pxgreen", {
   enumerable: true,
   get: function get() {
-    return _Pxgreen.default;
+    return _Pxgreen["default"];
   }
 });
 Object.defineProperty(exports, "Pxred", {
   enumerable: true,
   get: function get() {
-    return _Pxred.default;
+    return _Pxred["default"];
   }
 });
 Object.defineProperty(exports, "Pxwhite", {
   enumerable: true,
   get: function get() {
-    return _Pxwhite.default;
+    return _Pxwhite["default"];
   }
 });
 Object.defineProperty(exports, "Qrcode", {
   enumerable: true,
   get: function get() {
-    return _Qrcode.default;
+    return _Qrcode["default"];
   }
 });
 Object.defineProperty(exports, "RadioHandheld", {
   enumerable: true,
   get: function get() {
-    return _RadioHandheld.default;
+    return _RadioHandheld["default"];
   }
 });
 Object.defineProperty(exports, "Road", {
   enumerable: true,
   get: function get() {
-    return _Road.default;
+    return _Road["default"];
   }
 });
 Object.defineProperty(exports, "RoadVariant", {
   enumerable: true,
   get: function get() {
-    return _RoadVariant.default;
+    return _RoadVariant["default"];
   }
 });
 Object.defineProperty(exports, "RunningHigh", {
   enumerable: true,
   get: function get() {
-    return _RunningHigh.default;
+    return _RunningHigh["default"];
   }
 });
 Object.defineProperty(exports, "RunningLow", {
   enumerable: true,
   get: function get() {
-    return _RunningLow.default;
+    return _RunningLow["default"];
   }
 });
 Object.defineProperty(exports, "SatelliteUplink", {
   enumerable: true,
   get: function get() {
-    return _SatelliteUplink.default;
+    return _SatelliteUplink["default"];
   }
 });
 Object.defineProperty(exports, "ScanQrcode", {
   enumerable: true,
   get: function get() {
-    return _ScanQrcode.default;
+    return _ScanQrcode["default"];
   }
 });
 Object.defineProperty(exports, "Server", {
   enumerable: true,
   get: function get() {
-    return _Server.default;
+    return _Server["default"];
   }
 });
 Object.defineProperty(exports, "Servers", {
   enumerable: true,
   get: function get() {
-    return _Servers.default;
+    return _Servers["default"];
   }
 });
 Object.defineProperty(exports, "SignCaution", {
   enumerable: true,
   get: function get() {
-    return _SignCaution.default;
+    return _SignCaution["default"];
   }
 });
 Object.defineProperty(exports, "Silo", {
   enumerable: true,
   get: function get() {
-    return _Silo.default;
+    return _Silo["default"];
   }
 });
 Object.defineProperty(exports, "Soybean", {
   enumerable: true,
   get: function get() {
-    return _Soybean.default;
+    return _Soybean["default"];
   }
 });
 Object.defineProperty(exports, "SportsCar", {
   enumerable: true,
   get: function get() {
-    return _SportsCar.default;
+    return _SportsCar["default"];
   }
 });
 Object.defineProperty(exports, "Ssol", {
   enumerable: true,
   get: function get() {
-    return _Ssol.default;
+    return _Ssol["default"];
   }
 });
 Object.defineProperty(exports, "Stopped", {
   enumerable: true,
   get: function get() {
-    return _Stopped.default;
+    return _Stopped["default"];
   }
 });
 Object.defineProperty(exports, "Stopping", {
   enumerable: true,
   get: function get() {
-    return _Stopping.default;
+    return _Stopping["default"];
   }
 });
 Object.defineProperty(exports, "Studioblue", {
   enumerable: true,
   get: function get() {
-    return _Studioblue.default;
+    return _Studioblue["default"];
   }
 });
 Object.defineProperty(exports, "StudioblueOutline", {
   enumerable: true,
   get: function get() {
-    return _StudioblueOutline.default;
+    return _StudioblueOutline["default"];
   }
 });
 Object.defineProperty(exports, "Sunflower", {
   enumerable: true,
   get: function get() {
-    return _Sunflower.default;
+    return _Sunflower["default"];
   }
 });
 Object.defineProperty(exports, "Support", {
   enumerable: true,
   get: function get() {
-    return _Support.default;
+    return _Support["default"];
   }
 });
 Object.defineProperty(exports, "Switch", {
   enumerable: true,
   get: function get() {
-    return _Switch.default;
+    return _Switch["default"];
   }
 });
 Object.defineProperty(exports, "Temp", {
   enumerable: true,
   get: function get() {
-    return _Temp.default;
+    return _Temp["default"];
   }
 });
 Object.defineProperty(exports, "Tennis", {
   enumerable: true,
   get: function get() {
-    return _Tennis.default;
+    return _Tennis["default"];
   }
 });
 Object.defineProperty(exports, "ToggleOff", {
   enumerable: true,
   get: function get() {
-    return _ToggleOff.default;
+    return _ToggleOff["default"];
   }
 });
 Object.defineProperty(exports, "ToggleOffOutlined", {
   enumerable: true,
   get: function get() {
-    return _ToggleOffOutlined.default;
+    return _ToggleOffOutlined["default"];
   }
 });
 Object.defineProperty(exports, "ToggleOn", {
   enumerable: true,
   get: function get() {
-    return _ToggleOn.default;
+    return _ToggleOn["default"];
   }
 });
 Object.defineProperty(exports, "ToggleOnOutlined", {
   enumerable: true,
   get: function get() {
-    return _ToggleOnOutlined.default;
+    return _ToggleOnOutlined["default"];
   }
 });
 Object.defineProperty(exports, "Tomato", {
   enumerable: true,
   get: function get() {
-    return _Tomato.default;
+    return _Tomato["default"];
   }
 });
 Object.defineProperty(exports, "Tractor", {
   enumerable: true,
   get: function get() {
-    return _Tractor.default;
+    return _Tractor["default"];
   }
 });
 Object.defineProperty(exports, "TrafficLight", {
   enumerable: true,
   get: function get() {
-    return _TrafficLight.default;
+    return _TrafficLight["default"];
   }
 });
 Object.defineProperty(exports, "Tree", {
   enumerable: true,
   get: function get() {
-    return _Tree.default;
+    return _Tree["default"];
   }
 });
 Object.defineProperty(exports, "TrendingDown", {
   enumerable: true,
   get: function get() {
-    return _TrendingDown.default;
+    return _TrendingDown["default"];
   }
 });
 Object.defineProperty(exports, "TrendingFlat", {
   enumerable: true,
   get: function get() {
-    return _TrendingFlat.default;
+    return _TrendingFlat["default"];
   }
 });
 Object.defineProperty(exports, "TrendingUp", {
   enumerable: true,
   get: function get() {
-    return _TrendingUp.default;
+    return _TrendingUp["default"];
   }
 });
 Object.defineProperty(exports, "Tripped", {
   enumerable: true,
   get: function get() {
-    return _Tripped.default;
+    return _Tripped["default"];
   }
 });
 Object.defineProperty(exports, "Utility", {
   enumerable: true,
   get: function get() {
-    return _Utility.default;
+    return _Utility["default"];
   }
 });
 Object.defineProperty(exports, "UtilityVan", {
   enumerable: true,
   get: function get() {
-    return _UtilityVan.default;
+    return _UtilityVan["default"];
   }
 });
 Object.defineProperty(exports, "Vfd", {
   enumerable: true,
   get: function get() {
-    return _Vfd.default;
+    return _Vfd["default"];
   }
 });
 Object.defineProperty(exports, "Vmms", {
   enumerable: true,
   get: function get() {
-    return _Vmms.default;
+    return _Vmms["default"];
   }
 });
 Object.defineProperty(exports, "Voltage", {
   enumerable: true,
   get: function get() {
-    return _Voltage.default;
+    return _Voltage["default"];
   }
 });
 Object.defineProperty(exports, "VoltageCircled", {
   enumerable: true,
   get: function get() {
-    return _VoltageCircled.default;
+    return _VoltageCircled["default"];
   }
 });
 Object.defineProperty(exports, "VoltageCircledOutline", {
   enumerable: true,
   get: function get() {
-    return _VoltageCircledOutline.default;
+    return _VoltageCircledOutline["default"];
   }
 });
 Object.defineProperty(exports, "Water", {
   enumerable: true,
   get: function get() {
-    return _Water.default;
+    return _Water["default"];
   }
 });
 Object.defineProperty(exports, "WaterOutline", {
   enumerable: true,
   get: function get() {
-    return _WaterOutline.default;
+    return _WaterOutline["default"];
   }
 });
 Object.defineProperty(exports, "Waveform", {
   enumerable: true,
   get: function get() {
-    return _Waveform.default;
+    return _Waveform["default"];
   }
 });
 Object.defineProperty(exports, "Wheat", {
   enumerable: true,
   get: function get() {
-    return _Wheat.default;
+    return _Wheat["default"];
   }
 });
 Object.defineProperty(exports, "Xstorage", {
   enumerable: true,
   get: function get() {
-    return _Xstorage.default;
+    return _Xstorage["default"];
   }
 });
 Object.defineProperty(exports, "XstorageAlt", {
   enumerable: true,
   get: function get() {
-    return _XstorageAlt.default;
+    return _XstorageAlt["default"];
   }
 });
 
@@ -1044,4 +1044,4 @@ var _Xstorage = _interopRequireDefault(require("./Xstorage"));
 
 var _XstorageAlt = _interopRequireDefault(require("./XstorageAlt"));
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
