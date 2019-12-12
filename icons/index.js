@@ -225,6 +225,12 @@ Object.defineProperty(exports, "Fan", {
     return _Fan["default"];
   }
 });
+Object.defineProperty(exports, "Flask", {
+  enumerable: true,
+  get: function get() {
+    return _Flask["default"];
+  }
+});
 Object.defineProperty(exports, "Flow", {
   enumerable: true,
   get: function get() {
@@ -905,6 +911,8 @@ var _EphesusGateway = _interopRequireDefault(require("./EphesusGateway"));
 var _Factory = _interopRequireDefault(require("./Factory"));
 
 var _Fan = _interopRequireDefault(require("./Fan"));
+
+var _Flask = _interopRequireDefault(require("./Flask"));
 
 var _Flow = _interopRequireDefault(require("./Flow"));
 

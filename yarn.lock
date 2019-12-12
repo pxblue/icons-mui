@@ -747,9 +747,9 @@
     to-fast-properties "^2.0.0"
 
 "@pxblue/icons-svg@^1.0.0":
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/@pxblue/icons-svg/-/icons-svg-1.0.17.tgz#cce36cf2f8806161a20cf694954fc1fca364fedc"
-  integrity sha512-HOGsepT6zKnGNzegm4piqUd8WrolB8C/wKdrq5rHIy5ygj+BIlmqgHcjdhDjHeb6rqIEFtnS1Wx+xPIMt2xNwg==
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/@pxblue/icons-svg/-/icons-svg-1.0.18.tgz#3da719aaaec46cd6b48400995883355f32880519"
+  integrity sha512-T2Vs7Qt8wIMvOYkMR8nkVnUnbPlWpX2nQ3bERdabOJMzfnnWJxLGs/A5CJWCP1FKkjnaryvimaSv/AEaL4DvAQ==
 
 abbrev@1:
   version "1.1.1"

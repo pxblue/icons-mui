@@ -1,6 +1,6 @@
 {
   "name": "@pxblue/icons-mui",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "PX Blue icons for Material UI",
   "main": "./index.js",
   "repository": {
@@ -22,7 +22,7 @@
     "remove:sprite": "rm -rf node_modules/@pxblue/icons-svg/icons.svg",
     "mui": "cd mui-icon-builder && yarn && cd .. && yarn && yarn remove:sprite && cd mui-icon-builder && babel-node --config-file ./babel.config.js builder.js --output-dir ../icons --svg-dir ../node_modules/@pxblue/icons-svg && cd .. && yarn babelfy && yarn index",
     "copy": "cp package.json icons/package.json && cp PACKAGE_README.md icons/README.md && cp LICENSE icons/LICENSE && cp CHANGELOG.md icons/CHANGELOG.md",
-    "build:full": "yarn clear && yarn refresh && yarn mui && yarn copy"
+    "build:full": "yarn && yarn clear && yarn refresh && yarn mui && yarn copy"
   },
   "bugs": {
     "url": "https://github.com/pxblue/icons-mui/issues"
