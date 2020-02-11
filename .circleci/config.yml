@@ -8,11 +8,10 @@ jobs:
       - run: 
           name: Install Dependencies
           command: |
-            yarn
-            cd mui-icon-builder && yarn && cd ..
+            yarn install:dependencies
       - run:
           name: Build MUI
-          command: yarn build:full
+          command: yarn build
       - run:
           name: Verify MUI Artifacts
           command: yarn test
