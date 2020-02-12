@@ -34,7 +34,7 @@ echo -e "${BLUE}Done${NC}"
 
 echo -ne "Copying NPM package meta files...${NC}"
 cp package.json icons/package.json
-cp PACKAGE_README.md icons/README.md
+cp README.md icons/README.md
 cp LICENSE icons/LICENSE
 cp CHANGELOG.md icons/CHANGELOG.md
 echo -e "${BLUE}Done${NC}"
