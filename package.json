@@ -16,8 +16,8 @@
   "scripts": {
     "build": "bash ./scripts/generateIcons.sh",
     "link:components": "bash ./scripts/linkComponents.sh",
-    "install:dependencies": "yarn && cd scripts/mui-icon-builder && yarn && cd ../..",
-    "start:showcase": "yarn install:dependencies && yarn build && cd demos/showcase && yarn && yarn start",
+    "install:dependencies": "yarn && cd scripts/mui-icon-builder && yarn && cd ../.. && cd demos/showcase && yarn && cd ..",
+    "start:showcase": "yarn install:dependencies && yarn build && yarn link:components && cd demos/showcase && yarn start",
     "start:storybook": "echo 'No storybook demo yet'",
     "start": "yarn start:showcase",
     "test": "./scripts/buildTest.sh"
