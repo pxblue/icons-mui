@@ -1,4 +1,6 @@
 # Recent Changes
+## v2.1.0
+- Added type definitions for use in TypeScript projects
 
 ## v2.0.2
 - Added new icons for Department, Departments, Building, Factory, Map Markers, Piggy Bank
