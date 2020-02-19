@@ -1,6 +1,6 @@
 {
   "name": "@pxblue/icons-mui",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "description": "PX Blue icons for Material UI",
   "main": "./index.js",
   "repository": {
@@ -14,15 +14,13 @@
     "@material-ui/icons": ">=3.0.1"
   },
   "scripts": {
-    "test": "./buildTest.sh",
-    "index": "cp node_modules/@pxblue/icons-svg/index.json ./icons/index.json",
-    "babelfy": "babel icons --presets=@babel/preset-react,@babel/preset-env --out-dir icons",
-    "refresh": "yarn upgrade @pxblue/icons-svg",
-    "clear": "rm -rf icons",
-    "remove:sprite": "rm -rf node_modules/@pxblue/icons-svg/icons.svg",
-    "mui": "cd mui-icon-builder && yarn && cd .. && yarn && yarn remove:sprite && cd mui-icon-builder && babel-node --config-file ./babel.config.js builder.js --output-dir ../icons --svg-dir ../node_modules/@pxblue/icons-svg && cd .. && yarn babelfy && yarn index",
-    "copy": "cp package.json icons/package.json && cp PACKAGE_README.md icons/README.md && cp LICENSE icons/LICENSE && cp CHANGELOG.md icons/CHANGELOG.md",
-    "build:full": "yarn && yarn clear && yarn refresh && yarn mui && yarn copy"
+    "build": "bash ./scripts/generateIcons.sh",
+    "link:components": "bash ./scripts/linkComponents.sh",
+    "install:dependencies": "yarn && cd scripts/mui-icon-builder && yarn && cd ../.. && cd demos/showcase && yarn && cd ..",
+    "start:showcase": "yarn install:dependencies && yarn build && yarn link:components && cd demos/showcase && yarn start",
+    "start:storybook": "echo 'No storybook demo yet'",
+    "start": "yarn start:showcase",
+    "test": "./scripts/buildTest.sh"
   },
   "bugs": {
     "url": "https://github.com/pxblue/icons-mui/issues"
