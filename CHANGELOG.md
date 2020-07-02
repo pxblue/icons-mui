@@ -1,4 +1,8 @@
 # Recent Changes
+## v2.1.1
+-   Fixed a few alignment and color issues
+-   Renamed RoadVariant to RoadAlt for consistency
+
 ## v2.1.0
 - Added type definitions for use in TypeScript projects
 

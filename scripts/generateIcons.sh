@@ -13,6 +13,7 @@ echo -e "${BLUE}Done${NC}"
 
 echo -ne "${BLUE}Clearing existing icons folder...${NC}"
 rm -rf icons
+mkdir -p icons
 echo -e "${BLUE}Done${NC}"
 
 echo -ne "Loading latest PX Blue icon package...${NC}"
