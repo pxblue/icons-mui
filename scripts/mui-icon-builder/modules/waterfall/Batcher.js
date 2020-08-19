@@ -1,47 +1,47 @@
 // Inspired by http://caolan.github.io/async/docs.html#cargo
 // The main difference is that we have a timeout.
 class Batcher {
-  pendingEntries = [];
+    pendingEntries = [];
 
-  timeout = null;
+    timeout = null;
 
-  context = {};
+    context = {};
 
-  constructor(worker, options = {}) {
-    // max waiting time before flushing the pending entries (process them)
-    this.maxWait = options.maxWait || 1000;
-    // max number of entries in the queue before flushing them (process them)
-    this.maxItems = options.maxItems || 100;
-    this.worker = worker;
-  }
-
-  // public method
-  push(entries, contextItem) {
-    this.context = contextItem;
-    this.pendingEntries = this.pendingEntries.concat(entries);
-
-    if (this.pendingEntries.length >= this.maxItems) {
-      return this.sendItems();
+    constructor(worker, options = {}) {
+        // max waiting time before flushing the pending entries (process them)
+        this.maxWait = options.maxWait || 1000;
+        // max number of entries in the queue before flushing them (process them)
+        this.maxItems = options.maxItems || 100;
+        this.worker = worker;
     }
 
-    clearTimeout(this.timeout);
-    this.timeout = setTimeout(() => {
-      this.sendItems();
-    }, this.maxWait);
+    // public method
+    push(entries, contextItem) {
+        this.context = contextItem;
+        this.pendingEntries = this.pendingEntries.concat(entries);
 
-    return null;
-  }
+        if (this.pendingEntries.length >= this.maxItems) {
+            return this.sendItems();
+        }
 
-  sendItems() {
-    const pendingEntries = this.pendingEntries.splice(0); // Transfer the item to the job.
-    clearTimeout(this.timeout);
-    return this.worker(pendingEntries, this.context);
-  }
+        clearTimeout(this.timeout);
+        this.timeout = setTimeout(() => {
+            this.sendItems();
+        }, this.maxWait);
 
-  clear() {
-    clearTimeout(this.timeout);
-    this.pendingEntries = [];
-  }
+        return null;
+    }
+
+    sendItems() {
+        const pendingEntries = this.pendingEntries.splice(0); // Transfer the item to the job.
+        clearTimeout(this.timeout);
+        return this.worker(pendingEntries, this.context);
+    }
+
+    clear() {
+        clearTimeout(this.timeout);
+        this.pendingEntries = [];
+    }
 }
 
 export default Batcher;

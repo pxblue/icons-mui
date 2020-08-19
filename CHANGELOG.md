@@ -1,4 +1,4 @@
-# Recent Changes
+# Changelog
 
 ## v2.2.0
 
