@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.2.1
+
+### Fixed
+-   Missing icon in the index file
+
 ## v2.2.0
 
 ### Added
