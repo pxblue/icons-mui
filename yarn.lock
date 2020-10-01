@@ -746,6 +746,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@pxblue/icons-mui@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@pxblue/icons-mui/-/icons-mui-2.2.1.tgz#64f3e4b3ce0192b9d813f3e765e22d33c0d9f41b"
+  integrity sha512-KF3lvYClgiEwvxMEjmS0WWWFUrODuPy7bY4aRkA6JkhSAcLLRbggiW41TEG6QZ8coAEwdIuy6opBwGDsJeyuxw==
+
 "@pxblue/icons-svg@^1.0.0":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@pxblue/icons-svg/-/icons-svg-1.1.1.tgz#64ba59fa7e7ae4e82d8fc218de07cd67a8c09eed"

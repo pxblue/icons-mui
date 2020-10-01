@@ -43,5 +43,8 @@
         "material",
         "material-ui",
         "pxblue"
-    ]
+    ],
+    "dependencies": {
+        "@pxblue/icons-mui": "^2.2.1"
+    }
 }
