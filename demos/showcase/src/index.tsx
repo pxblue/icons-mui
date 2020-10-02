@@ -11,13 +11,13 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import * as PXBThemes from '@pxblue/themes/react';
 import 'typeface-open-sans';
 
-
 ReactDOM.render(
-	<MuiThemeProvider theme={createMuiTheme(PXBThemes.blue)}>
-		<CssBaseline/>
-		<App/>
-	</MuiThemeProvider>
-, document.getElementById('root'));
+    <MuiThemeProvider theme={createMuiTheme(PXBThemes.blue)}>
+        <CssBaseline />
+        <App />
+    </MuiThemeProvider>,
+    document.getElementById('root')
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
