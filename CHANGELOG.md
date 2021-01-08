@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.2.2
+
+### Fixed
+-   Wrong ratio in the Eaton logos
+
 ## v2.2.1
 
 ### Fixed
