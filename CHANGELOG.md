@@ -1,13 +1,22 @@
 # Changelog
 
+## v2.2.2
+
+### Fixed
+
+-   Crooked vector path in departments icon
+-   Aspect ratio in the Eaton logos
+
 ## v2.2.1
 
 ### Fixed
+
 -   Missing icon in the index file
 
 ## v2.2.0
 
 ### Added
+
 -   three Eaton logo variants.
 -   lighting icons for Dimmer, Light Switch, Outlet, Light Bulb, and Ceiling Light.
 -   general icons for Account Settings, Lock Reset, and Internet, Glass Divider.
@@ -16,6 +25,7 @@
 -   device icons for AMI Gateway, IPPE Vibrate, IPPE Vibrate Off, IPPE Vibrate Outlined, and Device Activating.
 
 ### Changed
+
 -   Modified the icon builder to generate icons with a customized view box
 
 ## v2.1.1
