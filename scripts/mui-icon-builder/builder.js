@@ -134,10 +134,7 @@ async function worker({ svgPath, options, renameFilter, template }) {
     let width = '24',
         height = '24';
     if (viewbox) {
-        let viewboxDimensions = viewbox[0]
-            .replace('viewBox="', '')
-            .replace('"', '')
-            .split(' ', 4);
+        let viewboxDimensions = viewbox[0].replace('viewBox="', '').replace('"', '').split(' ', 4);
         width = viewboxDimensions[2];
         height = viewboxDimensions[3];
     }
