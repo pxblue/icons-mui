@@ -8,8 +8,8 @@ import * as serviceWorker from './serviceWorker';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 //@ts-ignore
-import * as PXBThemes from '@pxblue/themes/react';
-import 'typeface-open-sans';
+import * as PXBThemes from '@pxblue/react-themes';
+import '@pxblue/react-themes/open-sans';
 
 ReactDOM.render(
     <MuiThemeProvider theme={createMuiTheme(PXBThemes.blue)}>
