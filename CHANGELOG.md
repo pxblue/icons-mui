@@ -1,5 +1,13 @@
 # Changelog
 
+## v2.3.2
+
+### Added
+
+-   Brand logos: Amazon, Amazon Alexa, Apple, and Google.
+-   Industrial icons: Pressure and Pressure Alt.
+-   System icon: Face ID.
+
 ## v2.2.2
 
 ### Fixed
