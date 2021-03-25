@@ -1,6 +1,6 @@
 # Changelog
 
-## v2.3.2
+## v2.3.0
 
 ### Added
 
@@ -38,11 +38,11 @@
 
 ## v2.1.1
 
-###  Changed 
+### Changed
 
 -   Renamed RoadVariant to RoadAlt for consistency.
 
-### Fixed 
+### Fixed
 
 -   Various alignment and color issues.
 
@@ -54,7 +54,7 @@
 
 ## v2.0.2
 
-### Added 
+### Added
 
 -   New icons for Department, Departments, Building, Factory, Map Markers, Piggy Bank.
 
