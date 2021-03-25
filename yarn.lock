@@ -746,7 +746,7 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@pxblue/icons-svg@^1.1.2":
+"@pxblue/icons-svg@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@pxblue/icons-svg/-/icons-svg-1.2.0.tgz#574d9a1f478265fc23f23e6706ecf524331a8cdf"
   integrity sha512-tjpgdwRmY+5ikUI3Ur3g7QqvpSwSNM6Jwwuwp1K4K367LxKV1UVOQDdsa4gavN3ulZ3sYCZb9vyheSBcYx1VrA==

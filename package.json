@@ -1,6 +1,6 @@
 {
     "name": "@pxblue/icons-mui",
-    "version": "2.3.2",
+    "version": "2.3.0",
     "description": "PX Blue icons for Material UI",
     "main": "./index.js",
     "repository": {
@@ -34,7 +34,7 @@
         "@babel/node": "7.0.0",
         "@babel/preset-env": "^7.1.0",
         "@babel/preset-react": "^7.0.0",
-        "@pxblue/icons-svg": "^1.1.2",
+        "@pxblue/icons-svg": "^1.2.0",
         "@pxblue/prettier-config": "^1.0.2",
         "prettier": "^2.0.5"
     },
