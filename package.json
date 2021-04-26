@@ -21,7 +21,8 @@
         "start:storybook": "echo 'No storybook demo yet'",
         "prettier": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
         "start": "yarn start:showcase",
-        "test": "./scripts/buildTest.sh"
+        "test": "./scripts/buildTest.sh",
+        "publish:package": "cd icons && set npm_config_yes=true && npx -p @pxblue/publish pxb-publish"
     },
     "bugs": {
         "url": "https://github.com/pxblue/icons-mui/issues"
