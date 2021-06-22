@@ -80,3 +80,7 @@ npm publish
 ```
 
 > **NOTE:** This package must be published from the /icons directory, not the root directory.
+
+## Browser Support
+
+PX Blue Icons for Material-UI will work with any modern browser. For details refer to our [Browser Support](https://pxblue.github.io/development/frameworks-web/react#browser-support) documentation.
