@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.4.0 (Not published yet)
+
+### Added
+
+-   Device icons: Battery Large, Battery Large Outline, Battery Large Reset, Battery Large Reset Outline and Battery Large Showing Terminals
+-   General icons: Technician
+
 ## v2.3.0 (March 25, 2021)
 
 ### Added
