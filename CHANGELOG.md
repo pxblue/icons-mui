@@ -1,6 +1,13 @@
 # Changelog
 
-## v2.3.0
+## v2.4.0 (June 25, 2021)
+
+### Added
+
+-   Device icons: Battery Large, Battery Large Outline, Battery Large Reset, Battery Large Reset Outline and Battery Large Showing Terminals
+-   General icons: Technician
+
+## v2.3.0 (March 25, 2021)
 
 ### Added
 
@@ -8,20 +15,20 @@
 -   Industrial icons: Pressure and Pressure Alt.
 -   System icon: Face ID.
 
-## v2.2.2
+## v2.2.2 (January 11, 2021)
 
 ### Fixed
 
 -   Crooked vector path in departments icon.
 -   Aspect ratio in the Eaton logos.
 
-## v2.2.1
+## v2.2.1 (September 30, 2020)
 
 ### Fixed
 
 -   Missing icon in the index file.
 
-## v2.2.0
+## v2.2.0 (September 30, 2020)
 
 ### Added
 
@@ -36,7 +43,7 @@
 
 -   Modified the icon builder to generate icons with a customized view box.
 
-## v2.1.1
+## v2.1.1 (July 2, 2020)
 
 ### Changed
 
@@ -46,19 +53,19 @@
 
 -   Various alignment and color issues.
 
-## v2.1.0
+## v2.1.0 (February 13, 2020)
 
 ### Added
 
 -   Type definitions for use in TypeScript projects.
 
-## v2.0.2
+## v2.0.2 (September 27, 2019)
 
 ### Added
 
 -   New icons for Department, Departments, Building, Factory, Map Markers, Piggy Bank.
 
-### v2.0.1
+### v2.0.1 (July 25, 2019)
 
 ## Changed
 
